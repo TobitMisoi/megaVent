@@ -1,0 +1,21 @@
+
+.sponsor-content {
+    display: flex;
+    flex-basis: 100%;
+    // border: 1px solid;
+    padding: 0.1rem;
+
+    li {
+        padding: 0.1rem;
+        display: flex;
+        justify-content: space-around;
+        flex: 2;
+        margin: 5px;
+        text-align: center;
+        box-shadow: -2px 20px 20px 1px;
+        overflow: hidden;
+        &:hover {
+            box-shadow: 1px 20px 0px -20px;
+        }
+    }
+}

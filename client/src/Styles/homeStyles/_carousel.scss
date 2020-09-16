@@ -1,0 +1,77 @@
+
+.carousel-area {
+    margin: auto;
+    padding-top: 40px;
+    // background: #151515;
+    color: #f8f8f8;
+}
+.carousel-container {
+    background: #000000;
+    padding-top: 1.6rem;
+    padding-bottom: 1.4rem;
+    max-height: 800px;
+    margin: auto;
+    display: table;
+    position: relative;
+}
+.carousel-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100%;
+    width: 100%;
+    h1 {
+        grid-area: 2/2;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+        color: #f8f8f8;
+        font-size: 20px;
+        // background: chartreuse;
+        max-width: 412px;
+    }
+}
+.carousel-background {
+    margin: 0 auto;
+    // background-color: ghostwhite;
+    width: 100%;
+    img {
+        max-width: 80%;
+        // height: 100%;
+    }
+}
+.carousel__showcase-link {
+    position: absolute;
+    grid-area: 3/2;
+    padding: .2rem;
+}
+.lpc {
+    margin: 10px;
+}
+@media screen and (max-width: 612px) {
+
+    .carousel-description {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: repeat(5, 1fr);
+        h1 {
+            font-size: 16px;
+            max-width: 312px;
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+
+    .carousel-description {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: repeat(5, 1fr);
+        h1 {
+            font-size: 12px;
+            max-width: 210px;
+        }
+    }
+}
