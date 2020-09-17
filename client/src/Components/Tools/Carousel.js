@@ -12,7 +12,7 @@ function Carousel({ eventHeading, eventImageSource, carousel }) {
                             {eventHeading}
                         </h1>
                         <div className="carousel__showcase-link">
-                            <Link>
+                            <Link to="/">
                                 {carousel ? <>
                                     <div className="lpc">
                                         <Button buttonSize="btn--medium" buttonColor="green">

@@ -10,8 +10,7 @@ function Navbar({ src }) {
                 <div className="navigation-container">
                     <div className="navbar__logo">
                         <font>
-                            <span>mega</span>Vent
-
+                            <span>mega</span>V
                         </font>
                         <div className="logo-displ">
                             <SiEventbrite />

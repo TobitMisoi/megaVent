@@ -19,7 +19,7 @@
     font {
         font-size: 16px;
         font-family: monospace;
-        color: #1D326B;
+        color: #1d326b;
         span {
             color: tomato;
         }
@@ -31,6 +31,9 @@
     display: flex;
     align-items: center;
     border-radius: 50%;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffffff, #dfdfdf);
+    box-shadow: 20px 20px 60px #d3d3d3, -20px -20px 60px #ffffff;
 }
 .item-links {
     display: flex;
@@ -43,11 +46,11 @@
         text-decoration: none;
         padding-bottom: 1rem;
         &:hover {
-            border-bottom: 3    px solid crimson;
+            border-bottom: 3px solid crimson;
         }
         font {
             text-transform: uppercase;
-            font-family: 'Vibes', cursive;
+            font-family: "Vibes", cursive;
             font-size: 16px;
             color: #16161d;
         }

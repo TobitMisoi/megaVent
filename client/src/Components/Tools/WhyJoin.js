@@ -1,5 +1,8 @@
 import React from 'react';
+// import BlogFetch from '../../Functions/BlogFetch';
+import BlogData from '../../utils/BlogData';
 import { pricing } from '../../utils/Data';
+import Blog from './Blog';
 import Pricing from './Pricing';
 
 
@@ -8,7 +11,7 @@ function WhyJoin({ cp, cf, cr, ck, heading1, postHeading1Text, icon_1, icon_2, i
         <>
             <section className="home__whyJoin">
                 <div className="home__whyJoin-container">
-                    <div class="row whyJoinTransheading">
+                    <div className="row whyJoinTransheading">
                         <h1>
                             {heading1}
                         </h1>
@@ -79,27 +82,7 @@ function WhyJoin({ cp, cf, cr, ck, heading1, postHeading1Text, icon_1, icon_2, i
                                         </>
                                         :
                                         <>
-                                            <div className="blog">
-                                                <div className="blog-container">
-                                                    <ul>
-                                                        <li className="blog-section">
-                                                            <font>
-                                                                adu
-                                                        </font>
-                                                        </li>
-                                                        <li className="blog-section">
-                                                            <font>
-                                                                adu
-                                                        </font>
-                                                        </li>
-                                                        <li className="blog-section">
-                                                            <font>
-                                                                adu
-                                                        </font>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                            <Blog {...BlogData}/>
                                         </>
                                 }
                             </>
