@@ -1,9 +1,7 @@
-import React, {  } from 'react'
-import { carouselData } from '../../utils/carouselData';
-import { blog, ourSponsors, pricing, whyJoin } from '../../utils/Data';
-import Carousel from '../Tools/Carousel'
-import Navbar from '../Tools/Navbar'
-import WhyJoin from '../Tools/WhyJoin';
+import React, { } from 'react'
+import { carouselData } from '../store/carouselData';
+import { blog, ourSponsors, pricing, whyJoin } from '../store/Data';
+import { Navbar, Carousel, WhyJoin, Footer } from '../components';
 
 function Home() {
     return (
@@ -14,6 +12,7 @@ function Home() {
             <WhyJoin {...ourSponsors} />
             <WhyJoin {...pricing} />
             <WhyJoin {...blog} />
+            <Footer />
         </>
     )
 }

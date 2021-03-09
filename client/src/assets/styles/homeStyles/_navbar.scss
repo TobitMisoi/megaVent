@@ -1,0 +1,103 @@
+.navigation {
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 100px;
+    position: static;
+}
+.navigation-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+    position: relative;
+    // background: #1d326b;
+}
+.navbar__logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 2;
+    padding-left: 10px;
+    font {
+        font-size: 16px;
+        font-family: monospace;
+        color: #1d326b;
+        span {
+            color: tomato;
+        }
+    }
+}
+.logo-displ {
+    padding: 0 12px 0 12px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffffff, #dfdfdf);
+    box-shadow: 20px 20px 60px #d3d3d3, -20px -20px 60px #ffffff;
+}
+.item-links {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.item {
+    padding: 0.8rem;
+    a {
+        text-decoration: none;
+        padding-bottom: 1rem;
+        &:hover {
+            border-bottom: 3px solid crimson;
+        }
+        font {
+            text-transform: uppercase;
+            font-family: "Vibes", cursive;
+            font-size: 16px;
+            color: #16161d;
+        }
+    }
+}
+.item:last-child {
+    margin-right: 5px;
+}
+// .hamburger-menu {
+//     width: 46px;
+//     height: 40px;
+//     background: #16161d;
+//     position: absolute;
+//     top: 20%;
+//     right: 2%;
+//     z-index: 1000;
+//     transform: translate(20%, 2%);
+//     span {
+//         position: relative;
+//         &::before {
+//             content: "";
+//             width: 46px;
+//             display: flex;
+//             flex-direction: column;
+//             background: #dfdfdf;
+//             height: 3px;
+//             position: absolute;
+//             top: 7px;
+//             left: 0;
+//         }
+//         &::after {
+//             content: "";
+//             width: 46px;
+//             display: flex;
+//             flex-direction: column;
+//             background: #dfdfdf;
+//             height: 3px;
+//             position: absolute;
+//             bottom: 7px;
+//             left: 0;
+//         }
+//     }
+// }
+@media screen and (max-width: 612px) {
+    .item-links {
+        display: none;
+    }
+}

@@ -3,14 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');///used it in whyjoin
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Piedra&display=swap'); //Piedra & Architects Daughter both cursive
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap'); //footer
 
 // imports
 @import './homeStyles/navbar';
-@import './homeStyles/carousel.scss';
-@import './Functions/button.scss'; //Button function styling
-@import './homeStyles/whyJoin.scss'; // *Why join* section
-@import './homeStyles/ourSponsor.scss';
-@import './homeStyles/pricing.scss';
+@import './homeStyles/carousel';
+@import './Functions/button'; //Button function styling
+@import './homeStyles/whyJoin'; 
+@import './homeStyles/ourSponsor';
+@import './homeStyles/pricing';
+@import './homeStyles/blog';
+@import './homeStyles/footer';
+@import './views/views';
 
 
 * {
