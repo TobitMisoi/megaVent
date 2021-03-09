@@ -9,6 +9,8 @@
     display: flex;
     align-items: center;
     padding-bottom: 12px;
+    position: relative;
+    // background: #1d326b;
 }
 .navbar__logo {
     position: relative;
@@ -59,6 +61,41 @@
 .item:last-child {
     margin-right: 5px;
 }
+// .hamburger-menu {
+//     width: 46px;
+//     height: 40px;
+//     background: #16161d;
+//     position: absolute;
+//     top: 20%;
+//     right: 2%;
+//     z-index: 1000;
+//     transform: translate(20%, 2%);
+//     span {
+//         position: relative;
+//         &::before {
+//             content: "";
+//             width: 46px;
+//             display: flex;
+//             flex-direction: column;
+//             background: #dfdfdf;
+//             height: 3px;
+//             position: absolute;
+//             top: 7px;
+//             left: 0;
+//         }
+//         &::after {
+//             content: "";
+//             width: 46px;
+//             display: flex;
+//             flex-direction: column;
+//             background: #dfdfdf;
+//             height: 3px;
+//             position: absolute;
+//             bottom: 7px;
+//             left: 0;
+//         }
+//     }
+// }
 @media screen and (max-width: 612px) {
     .item-links {
         display: none;

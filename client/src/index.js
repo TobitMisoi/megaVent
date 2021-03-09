@@ -1,17 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import MegaVent from './megaVent';
-import './Styles/main.scss';
+import App from './App';
+import './assets/styles/main.scss';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <MegaVent />
-      <Switch>
-        <Route />
-      </Switch>
-    </Router>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

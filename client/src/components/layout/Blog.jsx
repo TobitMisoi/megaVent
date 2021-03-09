@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import BlogFetch from '../../Functions/BlogFetch';
+import BlogFetch from '../../functions/BlogFetch';
 
 function Blog({ blogDispImg, blogTitle }) {
     return (

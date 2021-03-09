@@ -1,7 +1,6 @@
 import React from 'react';
-// import BlogFetch from '../../Functions/BlogFetch';
-import BlogData from '../../utils/BlogData';
-import { pricing } from '../../utils/Data';
+import BlogData from '../../store/BlogData';
+import { pricing } from '../../store/Data';
 import Blog from './Blog';
 import Pricing from './Pricing';
 

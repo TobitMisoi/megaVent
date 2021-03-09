@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from '../../Functions/Button';
+import { Button } from '../../functions/Button';
 
 function Pricing({ icon_1, icon_2, icon_3 }) {
     return (

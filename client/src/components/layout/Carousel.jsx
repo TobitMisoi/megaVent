@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from '../../Functions/Button';
+import { Button } from '../../functions/Button';
 
 function Carousel({ eventHeading, eventImageSource, carousel }) {
     return (
