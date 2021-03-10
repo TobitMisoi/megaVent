@@ -13,28 +13,28 @@ function Footer() {
                 </div>
                 <ul className="footer-links">
                     <li>
-                        <Link to="/">
+                        <Link to="/about">
                             <font>
                                 About
                             </font>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/">
+                        <Link to="/contact">
                             <font>
                                 Contact
                             </font>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/">
+                        <Link to="/terms-and-condition">
                             <font>
                                 Terms and Conditions
                             </font>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/">
+                        <Link to="/privacy">
                             <font>
                                 Privacy
                             </font>

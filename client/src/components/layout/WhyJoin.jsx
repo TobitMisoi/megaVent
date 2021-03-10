@@ -5,7 +5,26 @@ import Blog from './Blog';
 import Pricing from './Pricing';
 
 
-function WhyJoin({ cp, cf, cr, ck, heading1, postHeading1Text, icon_1, icon_2, icon_3, icon_4, heading3_1, heading3_2, heading3_3, heading3_4, postHeading3_1Text, postHeading3_2Text, postHeading3_3Text, postHeading3_4Text }) {
+function WhyJoin({
+    cp,
+    cf,
+    cr,
+    ck,
+    heading1,
+    postHeading1Text,
+    icon_1,
+    icon_2,
+    icon_3,
+    icon_4,
+    heading3_1,
+    heading3_2,
+    heading3_3,
+    heading3_4,
+    postHeading3_1Text,
+    postHeading3_2Text,
+    postHeading3_3Text,
+    postHeading3_4Text
+}) {
     return (
         <>
             <section className="home__whyJoin">
@@ -81,13 +100,13 @@ function WhyJoin({ cp, cf, cr, ck, heading1, postHeading1Text, icon_1, icon_2, i
                                         </>
                                         :
                                         <>
-                                            <Blog {...BlogData}/>
+                                            <Blog {...BlogData} />
                                         </>
                                 }
                             </>
                             :
                             <>
-                                <Pricing {...pricing}/>
+                                <Pricing {...pricing} />
                             </>
                     }
                 </div>
