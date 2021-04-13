@@ -2,6 +2,6 @@
 
 Is a simple event App made with React.
 
-##active -- Build in progress
+## active -- Build in progress
 
-##visit [https://tobitmisoi.com]
+## visit [https://tobitmisoi.com]
