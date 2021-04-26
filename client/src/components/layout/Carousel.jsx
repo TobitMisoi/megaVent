@@ -15,12 +15,12 @@ function Carousel({ eventHeading, eventImageSource, carousel }) {
                             <Link to="/">
                                 {carousel ? <>
                                     <div className="lpc">
-                                        <Button buttonSize="btn--medium" buttonColor="green">
+                                        <Button buttonSize="btn--wide" buttonColor="red">
                                             Buy Tickets
                                         </Button>
                                     </div>
                                     <div className="lpc">
-                                        <Button buttonSize="btn--small" buttonColor="red">
+                                        <Button buttonSize="btn--medium" buttonColor="green">
                                             Know More
                                         </Button>
                                     </div>
