@@ -4,7 +4,6 @@ import BlogFetch from '../functions/BlogFetch'
 
 const styles = {
   container: {
-    border: '1px solid',
     padding: '1rem'
   }
 }
